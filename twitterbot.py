@@ -16,5 +16,5 @@ filename.close()
 
 for line in f:
     api.update_status(status=line)
-    time.sleep(60)#Tweet every 1 minutes
+    time.sleep(60)
  
